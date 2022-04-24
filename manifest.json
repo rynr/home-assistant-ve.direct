@@ -1,0 +1,17 @@
+{
+  "domain": "ve_direct",
+  "name": "VE.Direct (USB)",
+  "version": "0.0.0",
+  "documentation": "https://github.com/rynr/home-assistant-ve.direct",
+  "dependencies": [],
+  "codeowners": ["@rynr"],
+  "requirements": ["serial==0.0.97"],
+  "iot_class": "local_push",
+  "usb": [
+    {
+      "vid": "0403",
+      "pid": "6015",
+      "manufacturer": "VictronEnergy BV"
+    }
+  ]
+}
